@@ -1,2 +1,2 @@
-streamlit
-claudette
+streamlit==1.40.0
+claudette==0.1.0
