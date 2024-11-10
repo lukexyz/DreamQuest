@@ -41,13 +41,12 @@ else:
     st.error("Please set ANTHROPIC_API_KEY in your environment variables!")
 
 # Main app title
-st.title("📚 Children's Story Generator")
+st.title("📚 Story Time")
 
 # Create two columns
 left_col, right_col = st.columns(2)
 
 with left_col:
-    st.subheader("Story Settings")
     # Input fields
     age = st.number_input("Child's Age", min_value=2, max_value=12, value=6)
     story_length = st.selectbox(
@@ -66,7 +65,6 @@ and be both entertaining and educational.
 Only return the story itself, no title or additional commentary."""
 
 with right_col:
-    st.subheader("Current Prompt")
     st.markdown(f"""<div class="prompt-box">{story_prompt}</div>""", unsafe_allow_html=True)
 
 # Generate story
