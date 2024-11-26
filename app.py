@@ -149,4 +149,4 @@ if generate_button:
 # Reset button
 if st.button("Start New Story"):
     st.session_state.expander_state = True
-    st.experimental_rerun()
+    st.rerun()

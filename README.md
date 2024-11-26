@@ -1,8 +1,15 @@
 # DreamQuest
 Childrens story generator with inputs for age, length, characters, themes and wholesome lessons.
 
+<p align="center">
+  <a href="media/dq_demo_1.png">
+    <img src="media/dq_demo_1.png" alt="DreamQuest Demo" width="800"/>
+  </a>
+  <br>
+  <em>DreamQuest Story Generator Interface</em>
+</p>
 
-## Things to fix
+## Things to do
 0. Add more customisation with pre-filled inputs and generated suggested tags
     - Setting
     - What happens
